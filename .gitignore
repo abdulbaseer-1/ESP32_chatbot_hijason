@@ -1,0 +1,50 @@
+# ESP-IDF build system
+/build/
+/*.elf
+/*.bin
+/*.map
+/*.hex
+*.pyc
+*.pyo
+__pycache__/
+
+# SDK Configuration (can be versioned if desired)
+/sdkconfig
+/sdkconfig.old
+/sdkconfig.ci
+
+# IDF Component Manager output
+/managed_components/
+components/esp-sr/
+components/esp-dsp/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+cmake_install.cmake
+Makefile
+
+# Model files (optional)
+*.hmodel
+*.tflite
+*.bin
+
+# IDE and tooling
+.vscode/
+.idea/
+.clangd/
+
+# Debugging artifacts
+*.core
+core
+*.log
+
+# Python virtual environments
+.venv/
+env/
+venv/
+
+# System-specific files
+.DS_Store
+Thumbs.db
