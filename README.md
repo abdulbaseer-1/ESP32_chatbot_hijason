@@ -1,7 +1,3 @@
-Here's a detailed, professional, and well-structured `README.md` file for your GitHub project **esp\_chatbot**, customized with your project setup, directory structure, and wake word "hijason":
-
----
-
 # 🧠 ESP ChatBot
 
 **ESP ChatBot** is a lightweight, offline-first voice interface framework for ESP32 using Espressif’s **ESP-SR v2.0.5**. It detects a custom wake word ("**hijason**"), captures audio from an I2S microphone, and publishes it via **MQTT** or **HTTP** to a backend for further AI processing (e.g., chat, transcription, commands).
