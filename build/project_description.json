@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "esp32_assistant",
-    "project_version":    "97e803cc-dirty",
+    "project_version":    "0f32b7bd-dirty",
     "project_path":       "F:/personal/internship/esp32-voice-assistant/firmware_SR/esp32_chatbot",
     "idf_path":           "F:/espressif",
     "build_dir":          "F:/personal/internship/esp32-voice-assistant/firmware_SR/esp32_chatbot/build",

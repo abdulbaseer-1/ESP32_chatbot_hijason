@@ -60,6 +60,8 @@
     "regex": "c",
     "hilexin.h": "c",
     "wakeword.h": "c",
-    "tuple": "c"
+    "tuple": "c",
+    "string_view": "c",
+    "variant": "c"
   }
 }

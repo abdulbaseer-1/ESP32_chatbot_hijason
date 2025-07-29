@@ -1,0 +1,2 @@
+Command: ninja all
+fatal: not a git repository: F:/personal/internship/esp32-voice-assistant/firmware_SR/esp32_chatbot/components/openthread/openthread/../../../.git/modules/components/openthread/openthread

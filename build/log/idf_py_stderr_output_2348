@@ -1,0 +1,2 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DSDKCONFIG='f:\personal\internship\esp32-voice-assistant\firmware_SR\esp32_chatbot\sdkconfig' -DCCACHE_ENABLE=1 F:\personal\internship\esp32-voice-assistant\firmware_SR\esp32_chatbot
+fatal: not a git repository: F:/personal/internship/esp32-voice-assistant/firmware_SR/esp32_chatbot/components/openthread/openthread/../../../.git/modules/components/openthread/openthread
