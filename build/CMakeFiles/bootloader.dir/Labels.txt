@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+F:/personal/internship/esp32-voice-assistant/firmware_SR/esp32_chatbot/build/CMakeFiles/bootloader
+F:/personal/internship/esp32-voice-assistant/firmware_SR/esp32_chatbot/build/CMakeFiles/bootloader.rule
+F:/personal/internship/esp32-voice-assistant/firmware_SR/esp32_chatbot/build/CMakeFiles/bootloader-complete.rule
+F:/personal/internship/esp32-voice-assistant/firmware_SR/esp32_chatbot/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+F:/personal/internship/esp32-voice-assistant/firmware_SR/esp32_chatbot/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+F:/personal/internship/esp32-voice-assistant/firmware_SR/esp32_chatbot/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+F:/personal/internship/esp32-voice-assistant/firmware_SR/esp32_chatbot/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+F:/personal/internship/esp32-voice-assistant/firmware_SR/esp32_chatbot/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+F:/personal/internship/esp32-voice-assistant/firmware_SR/esp32_chatbot/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+F:/personal/internship/esp32-voice-assistant/firmware_SR/esp32_chatbot/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

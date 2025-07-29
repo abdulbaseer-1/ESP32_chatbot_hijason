@@ -1,0 +1,6 @@
+source "F:/personal/internship/esp32-voice-assistant/firmware_SR/esp32_chatbot/components/bootloader/Kconfig.projbuild"
+source "F:/personal/internship/esp32-voice-assistant/firmware_SR/esp32_chatbot/components/esp_app_format/Kconfig.projbuild"
+source "F:/personal/internship/esp32-voice-assistant/firmware_SR/esp32_chatbot/components/esp_rom/Kconfig.projbuild"
+source "F:/personal/internship/esp32-voice-assistant/firmware_SR/esp32_chatbot/components/esptool_py/Kconfig.projbuild"
+source "F:/personal/internship/esp32-voice-assistant/firmware_SR/esp32_chatbot/components/partition_table/Kconfig.projbuild"
+source "F:/personal/internship/esp32-voice-assistant/firmware_SR/esp32_chatbot/components/esp-sr/Kconfig.projbuild"

@@ -48,8 +48,13 @@ void wakeword_init_multinet(wakeword_callback_t wake_cb) {//, command_callback_t
     } 
 
     int wn_index = esp_srmodel_exists(sr_models, wn_name);
-     
-    srmodel_data_t *wn_data = sr_models->model_data[wn_index];
+     if (wn_index < 0 || wn_index >= sr_models->num) {
+        ESP_LOGE(TAG, "WakeNet model %s not found in list", wn_name);
+        esp_srmodel_deinit(sr_models);
+        return;
+    } 
+    
+    //srmodel_data_t *wn_data = sr_models->model_data[wn_index];//dev says dont need this ,just add name
 
     wakenet = esp_wn_handle_from_name(wn_name);
     if (!wakenet) {
@@ -60,9 +65,9 @@ void wakeword_init_multinet(wakeword_callback_t wake_cb) {//, command_callback_t
  
     //for debugging 
     ESP_LOGI(TAG, "Using WakeNet: %s", wn_name);
-    ESP_LOGI(TAG, "Model data size: %d", wn_data->sizes[0]);
-    ESP_LOG_BUFFER_HEX(TAG, wn_data->data[0], 128);
-    wn_handle = wakenet->create((const void *)wn_data->data[0], WAKE_MODE);
+    //ESP_LOGI(TAG, "Model data size: %d", wn_data->sizes[0]);
+    //ESP_LOG_BUFFER_HEX(TAG, wn_data->data[0], 128);
+    wn_handle = wakenet->create(wn_name, WAKE_MODE);
     if (!wn_handle) {
         ESP_LOGE(TAG, "WakeNet creation failed for %s", wn_name);
         esp_srmodel_deinit(sr_models);

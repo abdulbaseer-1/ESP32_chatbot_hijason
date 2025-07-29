@@ -1,0 +1,5 @@
+source "F:/personal/internship/esp32-voice-assistant/firmware_SR/esp32_chatbot/components/bootloader/Kconfig.projbuild"
+source "F:/espressif/components/esp_app_format/Kconfig.projbuild"
+source "F:/espressif/components/esp_rom/Kconfig.projbuild"
+source "F:/espressif/components/esptool_py/Kconfig.projbuild"
+source "F:/espressif/components/partition_table/Kconfig.projbuild"
