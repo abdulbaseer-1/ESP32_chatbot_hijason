@@ -97,7 +97,7 @@ Enable and configure:
 
 | Component      | Details                      |
 | -------------- | ---------------------------- |
-| ESP32          | Dual-core, non-S3            |
+| ESP32          | Dual-core, S3            |
 | I2S Microphone | e.g., INMP441                |
 | Server/Backend | MQTT broker or HTTP endpoint |
 
